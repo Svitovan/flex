@@ -73,13 +73,13 @@ p {
     position: relative;    
 }
 
-.romb {
-    /* width: 200px;
-    height: 200px; */
-    /* border: 1px rgb(42, 44, 37) solid;
+/* .romb {
+     width: 200px;
+    height: 200px; 
+    border: 1px rgb(42, 44, 37) solid;
     margin: 20px auto;
-    transform: rotate(45deg); */  
-}
+    transform: rotate(45deg); 
+} */
 
 .button {
     background-color: rgb(44, 177, 177);
@@ -110,7 +110,7 @@ p {
 }
 
 .events {
-    width: 600px;
+    width: 750px;
     height: 150px;
     margin: 10px;
    
@@ -126,11 +126,12 @@ p {
         background-color: rgba(8, 8, 8, 0.589);
         font-size: 20px;
         width: 50px;
+        
     }
 
     .event_description {
         padding: 0px 10px 30px 10px;
-        background-color:rgba(88, 97, 116, 0.623);
+        background-color:rgba(88, 97, 116, 0.459);
     }
 
     .next {
