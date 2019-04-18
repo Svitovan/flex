@@ -1,0 +1,140 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 15px;
+}
+
+
+
+.header {
+    text-align: center;
+    min-width: 1900px;
+    
+}
+
+.section_1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('../img/field.jpg');
+    background-color:rgb(190, 223, 190);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;   
+}
+
+.blok {
+    flex-basis: 250px;
+    margin: 50px 10px 50px 10px;
+    padding: 20px;
+    background-color:rgb(0,0,0, 0.6);
+    text-align: center;
+ 
+}  
+
+ h1, h2  {
+    color: white;
+}
+
+.blok > p {
+    color: rgb(223, 223, 223);
+}
+
+.blok > a {
+    color:rgb(77, 255, 255);
+}
+
+.section_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    background-image: url('../img/field2.jpg');
+    background-color:rgb(148, 173, 109);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    color: white;
+}
+
+.section_romb {
+    /* border: black solid 1px; */
+    flex-basis: 200px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    position: relative;    
+}
+
+.romb {
+    /* width: 200px;
+    height: 200px; */
+    /* border: 1px rgb(42, 44, 37) solid;
+    margin: 20px auto;
+    transform: rotate(45deg); */  
+}
+
+.button {
+    background-color: rgb(44, 177, 177);
+    padding: 10px;
+    width: 60px;
+    height: 30px;
+    margin: 0 auto;
+    color: azure;
+}
+
+.btn {
+    position: relative;
+    top: 5px;
+    color: white;
+}
+
+
+.section_3 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    /* flex-direction: column; */
+    
+    background-image: url(../img/blok3.jpg);
+    background-color: rgb(152, 207, 211);
+ 
+}
+
+.events {
+    width: 600px;
+    height: 150px;
+    margin: 10px;
+   
+    color: #fff;
+    
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+    .event_date {
+        padding: 15px;
+        background-color: rgba(8, 8, 8, 0.589);
+        font-size: 20px;
+        width: 50px;
+    }
+
+    .event_description {
+        padding: 0px 10px 30px 10px;
+        background-color:rgba(88, 97, 116, 0.623);
+    }
+
+    .next {
+        /* height: 100%; */
+        padding: 60px 10px 25px 10px;
+        background-color: rgba(8, 8, 8, 0.514);
+    }
