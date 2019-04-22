@@ -5,6 +5,7 @@ html, body {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 p {
@@ -15,9 +16,10 @@ p {
 
 .header {
     text-align: center;
-    min-width: 1900px;
+    min-width: 1900px;  /* 1. как расположить флекс элементы друг над другом */
     
 }
+
 
 .section_1 {
     display: flex;
@@ -102,6 +104,7 @@ p {
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
+    
     /* flex-direction: column; */
     
     background-image: url(../img/blok3.jpg);
@@ -110,8 +113,10 @@ p {
 }
 
 .events {
-    width: 750px;
+    /* width: 750px;
     height: 150px;
+     */
+     max-width: 750px;
     margin: 10px;
    
     color: #fff;
@@ -132,18 +137,18 @@ p {
     .event_description {
         padding: 0px 10px 30px 10px;
         background-color:rgba(88, 97, 116, 0.459);
+        flex-grow: 1;
+        
     }
 
     .next {
-        /* height: 100%; */
-        padding: 60px 10px 25px 10px;
+        padding: 60px 10px 25px 10px; /*2. как выровнять содержимое флекс ячейки по вертикали */
         background-color: rgba(8, 8, 8, 0.514);
     }
 
 
-    /*
-
+/*
 1. как расположить флекс элементы друг над другом
 2. как выровнять содержимое флекс ячейки по вертикали
 3.
-    */
+*/
