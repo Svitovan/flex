@@ -12,14 +12,9 @@ p {
     font-size: 15px;
 }
 
-
-
-.header {
-    text-align: center;
-    min-width: 1900px;  /* 1. как расположить флекс элементы друг над другом */
-    
+h1, h2  {
+    color: white;
 }
-
 
 .section_1 {
     display: flex;
@@ -33,26 +28,21 @@ p {
     position: relative;   
 }
 
-.blok {
-    flex-basis: 250px;
-    margin: 50px 10px 50px 10px;
-    padding: 20px;
-    background-color:rgb(0,0,0, 0.6);
-    text-align: center;
- 
-}  
+    .blok {
+        flex-basis: 250px;
+        margin: 50px 10px;
+        padding: 20px;
+        background-color:rgb(0,0,0, 0.6);
+        text-align: center;
+    }  
 
- h1, h2  {
-    color: white;
-}
+    .blok > p {
+        color: rgb(223, 223, 223);
+    }
 
-.blok > p {
-    color: rgb(223, 223, 223);
-}
-
-.blok > a {
-    color:rgb(77, 255, 255);
-}
+    .blok > a {
+        color:rgb(77, 255, 255);
+    }
 
 .section_2 {
     display: flex;
@@ -65,87 +55,94 @@ p {
     background-size: cover;   
     color: white;
 }
+    .header {
+        text-align: center;
+        min-width: 2000px;  
+    }
+    
+    .section_romb {
+        /* border: rgb(201, 201, 201) solid 1px; */
+        flex-basis: 200px;
+        margin: 25px 10px;
+        padding: 10px;
+        text-align: center;
+        position: relative;    
+    }
 
-.section_romb {
-    /* border: black solid 1px; */
-    flex-basis: 200px;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    position: relative;    
+        .button {
+            display: inline-block;
+            background-color: rgb(44, 177, 177);
+            color: azure;   
+        }
+
+            .link {
+                display: inline-block;
+                color: white;
+                padding: 10px 20px;
+            }
+
+@media screen and (max-width:970px) {
+    .section_romb {
+       margin: 40px 50px; 
+    }
 }
 
-/* .romb {
-     width: 200px;
-    height: 200px; 
-    border: 1px rgb(42, 44, 37) solid;
-    margin: 20px auto;
-    transform: rotate(45deg); 
-} */
-
-.button {
-    background-color: rgb(44, 177, 177);
-    padding: 10px;
-    width: 60px;
-    height: 30px;
-    margin: 0 auto;
-    color: azure;
+@media screen and (max-width:639px) {
+    .section_romb {
+        border: rgb(201, 201, 201) solid 1px;w
+    }
 }
-
-.btn {
-    position: relative;
-    top: 5px;
-    color: white;
-}
-
 
 .section_3 {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
-    
-    /* flex-direction: column; */
-    
     background-image: url(../img/blok3.jpg);
     background-color: rgb(152, 207, 211);
- 
 }
 
-.events {
-    /* width: 750px;
-    height: 150px;
-     */
-     max-width: 750px;
-     margin: 10px;
-   
-    color: #fff;
-    
-    display: flex;
-    flex-wrap: nowrap;
-    
-}
+    .events {
+        max-width: 750px;
+        margin: 10px;
+        color: #fff;
+        display: flex;
+        flex-wrap: nowrap;  
+    }
 
+        .event_date {
+            padding: 15px;
+            background-color: rgba(8, 8, 8, 0.589);
+            font-size: 20px;
+            max-width: 50px;
+        }
+
+        .event_description {
+            padding: 0px 10px 30px 10px;
+            background-color:rgba(88, 97, 116, 0.459);
+            flex-grow: 1; 
+        }
+
+        .next {
+            /* padding: 60px 10px 25px 10px;  */  
+            display: flex;       
+            background-color: rgba(8, 8, 8, 0.514);
+        }
+            .arrow {
+                align-self: center;
+            }
+                
+@media screen and (max-width: 570px) {
+    .events {
+        flex-direction: column;
+    }
     .event_date {
-        padding: 15px;
-        background-color: rgba(8, 8, 8, 0.589);
-        font-size: 20px;
-        width: 50px;
-        
+        max-width: 100%;
     }
-
-    .event_description {
-        padding: 0px 10px 30px 10px;
-        background-color:rgba(88, 97, 116, 0.459);
-        flex-grow: 1;
-        
-    }
-
     .next {
-        padding: 60px 10px 25px 10px; /*2. как выровнять содержимое флекс ячейки по вертикали */
-        background-color: rgba(8, 8, 8, 0.514);
+        justify-content: center;
     }
-
+}
 
 /*
 1. как расположить флекс элементы друг над другом
