@@ -34,7 +34,7 @@ function css(){
             browsers: ['last 2 version']           
         }))
         .pipe(cleanCSS({compatibility: 'ie8',
-                        level: 1 }))
+                        level: 2 }))
         .pipe(gulp.dest(config.build + config.css.dest)); 
 }
 
