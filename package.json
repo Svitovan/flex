@@ -1,0 +1,26 @@
+{
+  "name": "flex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "gulp": "^4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Svitovan/flex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Svitovan/flex/issues"
+  },
+  "homepage": "https://github.com/Svitovan/flex#readme"
+}
