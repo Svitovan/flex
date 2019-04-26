@@ -1,5 +1,7 @@
 .newTask {
-    color: yellow;
+    color: rgb(255, 255, 255);
     background-color: #fff;
     position: relative;
+    font-style: bold;
+    
 }
